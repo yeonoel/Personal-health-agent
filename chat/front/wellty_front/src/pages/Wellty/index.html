@@ -1,0 +1,684 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8">
+    <title>WellTy - Mobile App</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500&family=Jost:wght@500;600;700&display=swap" rel="stylesheet"> 
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="51">
+    <div class="container-xxl bg-white p-0">
+        <!-- Spinner Start -->
+        <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+            <div class="spinner-grow text-primary" style="width: 3rem; height: 3rem;" role="status">
+                <span class="sr-only">Loading...</span>
+            </div>
+        </div>
+        <!-- Spinner End -->
+
+
+        <!-- Navbar & Hero Start -->
+        <div class="container-xxl position-relative p-0" id="home" style="margin-top: -30;" >
+            <nav class="navbar navbar-expand-lg navbar-light px-4 px-lg-5 py-3 py-lg-0">
+                <a href="" class="navbar-brand p-0">
+                    <h1 class="m-0">WellTy</h1>
+                    <!-- <img src="img/Logo.jpg" alt="Logo">  --> 
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                    <span class="fa fa-bars"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="navbar-nav mx-auto py-0">
+                        <a href="./Login Form/index.html" class="nav-item nav-link">Connexion</a>
+						<a href="./Login Form/inscription.html" class="nav-item nav-link">Inscription</a>
+                         <a href="#contact" class="nav-item nav-link">Contacts</a>
+                    </div>
+                </div>
+                
+            </nav>
+
+            <div class="container-xxl bg-primary hero-header">
+                <div class="container px-lg-5">
+                    <div class="row g-5">
+                        <div class="col-lg-8 text-center text-lg-start">
+                            <h1 class="text-white mb-4 animated slideInDown">L'outil révolutionnaire qui permet de contrôler sa propre santé </h1>
+                            
+                               <a href="http://localhost:3000/wellty" class="btn  py-sm-3 px-4 px-sm-5 rounded-pill mt-3" style="background-color: white;">Go WellTy</a>
+                        </div>
+                        
+                        <div class="col-lg-4 d-flex justify-content-center justify-content-lg-end wow fadeInUp" data-wow-delay="0.3s">
+                             <img class="img-fluid"  src="img/Logott.png" alt="">
+                              <!--<div class="owl-carousel screenshot-carousel">
+                               
+                             
+                                <img class="img-fluid" src="img/screen2.jpg" alt="">
+                                <img class="img-fluid" src="img/screen3.jpg" alt="">
+                                <img class="img-fluid" src="img/screen4.jpg" alt="">
+                                <img class="img-fluid" src="img/screen5.jpg" alt="">
+
+                              
+                            </div> --> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Navbar & Hero End -->
+
+
+        <!-- About Start -->
+        <div class="container-xxl py-5" id="about">
+            <div class="container py-5 px-lg-5">
+                <div class="row g-5 align-items-center">
+                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                        <h5 class="text-primary-gradient fw-medium">A propos de wellty</h5>
+                        <h1 class="mb-4">L'application n°1 pour votre suivi medical</h1>
+                        <p class="mb-4">Wellty va au-delà de simples conseils génériques en offrant une approche personnalisée.
+                             Il nous aide à fixer des objectifs réalisables et à suivre nos progrès, nous motivant ainsi
+                              à maintenir notre engagement envers une vie saine. Il peut également nous rappeler de prendre
+                               nos médicaments, de boire suffisamment d'eau et de pratiquer 
+                            des activités relaxantes pour améliorer notre bien-être général.</p>
+                        <div class="row g-4 mb-4">
+                            <div class="col-sm-6 wow fadeIn" data-wow-delay="0.5s">
+                                <div class="d-flex">
+                                    <i class="fa fa-cogs fa-2x text-primary-gradient flex-shrink-0 mt-1"></i>
+                                    <div class="ms-3">
+                                        <h2 class="mb-0" data-toggle="counter-up">1234</h2>
+                                        <p class="text-primary-gradient mb-0">Installation active </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 wow fadeIn" data-wow-delay="0.7s">
+                                <div class="d-flex">
+                                    <i class="fa fa-comments fa-2x text-secondary-gradient flex-shrink-0 mt-1"></i>
+                                    <div class="ms-3">
+                                        <h2 class="mb-0" data-toggle="counter-up">1234</h2>
+                                        <p class="text-secondary-gradient mb-0">Commentaires des clients</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="" class="btn btn-primary-gradient py-sm-3 px-4 px-sm-5 rounded-pill mt-3">En savoir plus</a>
+                    </div>
+                    <div class="col-lg-6">
+                        <!-- <img class="img-fluid wow fadeInUp" data-wow-delay="0.5s" src="img/Logo.jpg"> -->
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- About End -->
+
+
+        <!-- Features Start -->
+        <div class="container-xxl py-5" id="feature">
+            <div class="container py-5 px-lg-5">
+                <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                    <h5 class="text-primary-gradient fw-medium">Fonctionalités</h5>
+                    <h1 class="mb-5">Fonctionnalités impressionnantes</h1>
+                </div>
+                <div class="row g-4">
+                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="feature-item bg-light rounded p-4">
+                            <div class="d-inline-flex align-items-center justify-content-center bg-primary-gradient rounded-circle mb-4" style="width: 60px; height: 60px;">
+                                <i class="fa fa-eye text-white fs-4"></i>
+                            </div>
+                            <h5 class="mb-3">Suivi medical sur mesure</h5>
+                            <p class="m-0">"Grâce à Wellty, j'ai accès à un suivi médical personnalisé et complet. L'application me permet de consigner mes symptômes, mes médicaments et mes rendez-vous médicaux, le tout regroupé dans un seul endroit pratique. Je peux également suivre mes résultats d'analyses et de tests, ce qui me permet de garder un œil attentif sur ma santé. Avec Wellty, je me sens en contrôle de mon suivi médical, ce qui me procure une tranquillité d'esprit précieuse."</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                        <div class="feature-item bg-light rounded p-4">
+                            <div class="d-inline-flex align-items-center justify-content-center bg-secondary-gradient rounded-circle mb-4" style="width: 60px; height: 60px;">
+                                <i class="fa fa-layer-group text-white fs-4"></i>
+                            </div>
+                            <h5 class="mb-3">Diagnostic a distance</h5>
+                            <p class="m-0">"Lorsque j'ai des symptômes inquiétants, je peux compter sur Wellty pour obtenir un diagnostic en ligne rapide et fiable. Grâce à son intelligence artificielle avancée, le bot analyse mes symptômes et me propose une évaluation préliminaire de ma condition. Cela me permet d'avoir une idée générale de ce qui pourrait se passer et de prendre les mesures nécessaires, que ce soit de consulter un professionnel de la santé ou de suivre des recommandations de gestion à domicile."</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                        <div class="feature-item bg-light rounded p-4">
+                            <div class="d-inline-flex align-items-center justify-content-center bg-primary-gradient rounded-circle mb-4" style="width: 60px; height: 60px;">
+                                <i class="fa fa-edit text-white fs-4"></i>
+                            </div>
+                            <h5 class="mb-3">Delivrance d'ordonnance</h5>
+                            <p class="m-0">"Wellty facilite la gestion de mes ordonnances médicales. Une fois que j'ai reçu un diagnostic ou que j'ai besoin de renouveler une ordonnance existante, je peux demander à Wellty de la renouveler en ligne. C'est simple et pratique, car je n'ai pas besoin de me rendre physiquement à la pharmacie. De plus, Wellty me permet également de prendre des rendez-vous médicaux en ligne, ce qui m'évite d'attendre au téléphone ou de me déplacer pour fixer un rendez-vous. C'est un véritable gain de temps et d'efficacité."</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="feature-item bg-light rounded p-4">
+                            <div class="d-inline-flex align-items-center justify-content-center bg-secondary-gradient rounded-circle mb-4" style="width: 60px; height: 60px;">
+                                <i class="fa fa-shield-alt text-white fs-4"></i>
+                            </div>
+                            <h5 class="mb-3">Rendez vous en ligne</h5>
+                            <p class="m-0"> "Wellty offre une fonctionnalité de prise de rendez-vous en ligne qui facilite grandement la coordination de mes consultations médicales. Je peux consulter les disponibilités des médecins, des spécialistes et des professionnels de la santé directement depuis l'application, et choisir un créneau qui convient à mon emploi du temps. Cela me permet d'économiser du temps et de l'énergie, tout en m'assurant d'obtenir les soins dont j'ai besoin en temps opportun."</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                        <div class="feature-item bg-light rounded p-4">
+                            <div class="d-inline-flex align-items-center justify-content-center bg-primary-gradient rounded-circle mb-4" style="width: 60px; height: 60px;">
+                                <i class="fa fa-cloud text-white fs-4"></i>
+                            </div>
+                            <h5 class="mb-3">Conseil personnalisés de prevention</h5>
+                            <p class="m-0"> "Ce que j'apprécie particulièrement avec Wellty, c'est sa capacité à me fournir des conseils personnalisés de prévention. Basé sur mes informations de santé, mes antécédents et mes objectifs, Wellty me donne des recommandations adaptées pour prévenir les maladies et maintenir une bonne santé. Que ce soit des conseils pour une alimentation équilibrée, des exercices de prévention ou des mesures de bien-être général, Wellty m'aide à prendre des décisions éclairées pour préserver ma santé à long terme."</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                        <div class="feature-item bg-light rounded p-4">
+                            <div class="d-inline-flex align-items-center justify-content-center bg-secondary-gradient rounded-circle mb-4" style="width: 60px; height: 60px;">
+                                <i class="fa fa-mobile-alt text-white fs-4"></i>
+                            </div>
+                            <h5 class="mb-3">Actions preventives en situation de crise</h5>
+                            <p class="m-0">"En cas de crise de santé, Wellty est là pour me guider avec des actions préventives appropriées. Que ce soit pour gérer une crise d'allergie, une blessure mineure ou un problème de santé urgent, Wellty me donne des conseils sur les premiers gestes à poser et les mesures d'urgence à prendre avant de consulter un professionnel de la santé. Cela me donne une certaine tranquillité d'esprit et me permet de réagir rapidement et efficacement dans les situations d'urgence." </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Features End -->
+
+
+        <!-- Screenshot Start -->
+        <div class="container-xxl py-5">
+            <div class="container py-5 px-lg-5">
+                <div class="row g-5 align-items-center">
+                    <div class="col-lg-8 wow fadeInUp" data-wow-delay="0.1s">
+                        <h5 class="text-primary-gradient fw-medium">Screenshot</h5>
+                        <h1 class="mb-4">Interface conviviale et application de suivi medical très facile à utiliser</h1>
+                        <p class="mb-4">Le suivi de vos symptômes est également simplifié grâce à une interface conviviale. Vous pouvez enregistrer vos symptômes de manière détaillée et précise, en ajoutant des informations telles que leur fréquence, leur intensité et leur durée. Cela permet à Wellty de mieux comprendre votre situation et de vous fournir des conseils plus précis.</p>
+                        <p><i class="fa fa-check text-primary-gradient me-3"></i>Pharmarcie à proximité</p>
+                        <p><i class="fa fa-check text-primary-gradient me-3"></i>Chat disponnible H24</p>
+                        <p class="mb-4"><i class="fa fa-check text-primary-gradient me-3"></i>Des docteurs à votre disposition</p>
+                        <a href="" class="btn btn-primary-gradient py-sm-3 px-4 px-sm-5 rounded-pill mt-3">En savoir plus</a>
+                    </div>
+                    <div class="col-lg-4 d-flex justify-content-center justify-content-lg-end wow fadeInUp" data-wow-delay="0.3s">
+                        <div class="owl-carousel screenshot-carousel">
+                            <img class="img-fluid" src="img/screen1.jpg" alt="">
+                            <img class="img-fluid" src="img/screen2.jpg" alt="">
+                            <img class="img-fluid" src="img/screen3.jpg" alt="">
+                            <img class="img-fluid" src="img/screen4.jpg" alt="">
+                            <img class="img-fluid" src="img/screen5.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Screenshot End -->
+
+
+        <!-- Process Start -->
+        <div class="container-xxl py-5">
+            <div class="container py-5 px-lg-5">
+                <div class="text-center pb-4 wow fadeInUp" data-wow-delay="0.1s">
+                    <h5 class="text-primary-gradient fw-medium">Comment ca marche</h5>
+                    <h1 class="mb-5">3 Etapes Simple</h1>
+                </div>
+                <div class="row gy-5 gx-4 justify-content-center">
+                    <div class="col-lg-4 col-sm-6 text-center pt-4 wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="position-relative bg-light rounded pt-5 pb-4 px-4">
+                            <div class="d-inline-flex align-items-center justify-content-center bg-primary-gradient rounded-circle position-absolute top-0 start-50 translate-middle shadow" style="width: 100px; height: 100px;">
+                                <i class="fa fa-cog fa-3x text-white"></i>
+                            </div>
+                            <h5 class="mt-4 mb-3">Installer l'application</h5>
+                            <p class="mb-0">L'installation de cette application de santé est un jeu d'enfant ! Il vous suffit de vous rendre sur le site officiel et de cliquer sur le bouton de téléchargement correspondant à votre appareil.
+                                 En quelques instants, l'application sera téléchargée et prête à être utilisée. 
+                                 Ne vous inquiétez pas, elle est sécurisée et respecte votre vie privée. 
+                                 Préparez-vous à entrer dans un monde de bien-être et à prendre le contrôle de votre santé !"</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 text-center pt-4 wow fadeInUp" data-wow-delay="0.3s">
+                        <div class="position-relative bg-light rounded pt-5 pb-4 px-4">
+                            <div class="d-inline-flex align-items-center justify-content-center bg-secondary-gradient rounded-circle position-absolute top-0 start-50 translate-middle shadow" style="width: 100px; height: 100px;">
+                                <i class="fa fa-address-card fa-3x text-white"></i>
+                            </div>
+                            <h5 class="mt-4 mb-3">Configurer votre profil</h5>
+                            <p class="mb-0">Préparez-vous à faire connaissance avec votre nouvel assistant personnel de santé 
+                                en créant votre profil sur l'application. Il vous suffit de suivre les instructions à l'écran pour 
+                                fournir les informations nécessaires, telles que votre taille, votre poids et vos préférences alimentaires.
+                                 En fonction de ces données, l'application vous proposera des recommandations personnalisées et adaptées à vos besoins spécifiques.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 text-center pt-4 wow fadeInUp" data-wow-delay="0.5s">
+                        <div class="position-relative bg-light rounded pt-5 pb-4 px-4">
+                            <div class="d-inline-flex align-items-center justify-content-center bg-primary-gradient rounded-circle position-absolute top-0 start-50 translate-middle shadow" style="width: 100px; height: 100px;">
+                                <i class="fa fa-check fa-3x text-white"></i>
+                            </div>
+                            <h5 class="mt-4 mb-3">Profitez des fonctionnalités</h5>
+                            <p class="mb-0">Une fois votre profil créé, il est temps de plonger dans les incroyables fonctionnalités 
+                                de cette application de gestion de santé. Explorez les différents onglets pour accéder à des 
+                                fonctionnalités telles que le suivi des repas, des séances d'exercice et du sommeil. 
+                                 Avec cette application,
+                                 vous avez tous les outils nécessaires pour prendre le contrôle total de votre santé et de votre 
+                                 bien-être !"</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Process Start -->
+
+
+        <!-- Download Start
+        
+        <div class="container-xxl py-5">
+            <div class="container py-5 px-lg-5">
+                <div class="row g-5 align-items-center">
+                    <div class="col-lg-6">
+                        <img class="img-fluid wow fadeInUp" data-wow-delay="0.1s" src="img/about.png">
+                    </div>
+                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
+                        <h5 class="text-primary-gradient fw-medium">Download</h5>
+                        <h1 class="mb-4">Download The Latest Version Of Our App</h1>
+                        <p class="mb-4">Diam dolor diam ipsum et tempor sit. Aliqu diam amet diam et eos labore. Clita erat ipsum et lorem et sit, sed stet no labore lorem sit clita duo justo eirmod magna dolore erat amet</p>
+                        <div class="row g-4">
+                            <div class="col-sm-6 wow fadeIn" data-wow-delay="0.5s">
+                                <a href="" class="d-flex bg-primary-gradient rounded py-3 px-4">
+                                    <i class="fab fa-apple fa-3x text-white flex-shrink-0"></i>
+                                    <div class="ms-3">
+                                        <p class="text-white mb-0">Available On</p>
+                                        <h5 class="text-white mb-0">App Store</h5>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-sm-6 wow fadeIn" data-wow-delay="0.7s">
+                                <a href="" class="d-flex bg-secondary-gradient rounded py-3 px-4">
+                                    <i class="fab fa-android fa-3x text-white flex-shrink-0"></i>
+                                    <div class="ms-3">
+                                        <p class="text-white mb-0">Available On</p>
+                                        <h5 class="text-white mb-0">Play Store</h5>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>-->
+        
+        <!-- Download End -->
+
+
+        <!-- Pricing Start 
+        <div class="container-xxl py-5" id="pricing">
+            <div class="container py-5 px-lg-5">
+                <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                    <h5 class="text-primary-gradient fw-medium">Pricing Plan</h5>
+                    <h1 class="mb-5">Choose Your Plan</h1>
+                </div>
+                <div class="tab-class text-center pricing wow fadeInUp" data-wow-delay="0.1s">
+                    <ul class="nav nav-pills d-inline-flex justify-content-center bg-primary-gradient rounded-pill mb-5">
+                        <li class="nav-item">
+                            <button class="nav-link active" data-bs-toggle="pill" href="#tab-1">Monthly</button>
+                        </li>
+                        <li class="nav-item">
+                            <button class="nav-link" data-bs-toggle="pill" href="#tab-2">Yearly</button>
+                        </li>
+                    </ul>
+                    <div class="tab-content text-start">
+                        <div id="tab-1" class="tab-pane fade show p-0 active">
+                            <div class="row g-4">
+                                <div class="col-lg-4">
+                                    <div class="bg-light rounded">
+                                        <div class="border-bottom p-4 mb-4">
+                                            <h4 class="text-primary-gradient mb-1">Starter Plan</h4>
+                                            <span>Powerful & Awesome Features</span>
+                                        </div>
+                                        <div class="p-4 pt-0">
+                                            <h1 class="mb-3">
+                                                <small class="align-top" style="font-size: 22px; line-height: 45px;">$</small>14.99<small
+                                                    class="align-bottom" style="font-size: 16px; line-height: 40px;">/ Month</small>
+                                            </h1>
+                                            <div class="d-flex justify-content-between mb-3"><span>HTML5 & CSS3</span><i class="fa fa-check text-primary-gradient pt-1"></i></div>
+                                            <div class="d-flex justify-content-between mb-3"><span>Bootstrap v5</span><i class="fa fa-check text-primary-gradient pt-1"></i></div>
+                                            <div class="d-flex justify-content-between mb-3"><span>Responsive Layout</span><i class="fa fa-check text-primary-gradient pt-1"></i></div>
+                                            <div class="d-flex justify-content-between mb-2"><span>Cross-browser Support</span><i class="fa fa-check text-primary-gradient pt-1"></i></div>
+                                            <a href="" class="btn btn-primary-gradient rounded-pill py-2 px-4 mt-4">Get Started</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4">
+                                    <div class="bg-light rounded border">
+                                        <div class="border-bottom p-4 mb-4">
+                                            <h4 class="text-primary-gradient mb-1">Advance Plan</h4>
+                                            <span>Powerful & Awesome Features</span>
+                                        </div>
+                                        <div class="p-4 pt-0">
+                                            <h1 class="mb-3">
+                                                <small class="align-top" style="font-size: 22px; line-height: 45px;">$</small>24.99<small
+                                                    class="align-bottom" style="font-size: 16px; line-height: 40px;">/ Month</small>
+                                            </h1>
+                                            <div class="d-flex justify-content-between mb-3"><span>HTML5 & CSS3</span><i class="fa fa-check text-primary-gradient pt-1"></i></div>
+                                            <div class="d-flex justify-content-between mb-3"><span>Bootstrap v5</span><i class="fa fa-check text-primary-gradient pt-1"></i></div>
+                                            <div class="d-flex justify-content-between mb-3"><span>Responsive Layout</span><i class="fa fa-check text-primary-gradient pt-1"></i></div>
+                                            <div class="d-flex justify-content-between mb-2"><span>Cross-browser Support</span><i class="fa fa-check text-primary-gradient pt-1"></i></div>
+                                            <a href="" class="btn btn-secondary-gradient rounded-pill py-2 px-4 mt-4">Get Started</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4">
+                                    <div class="bg-light rounded">
+                                        <div class="border-bottom p-4 mb-4">
+                                            <h4 class="text-primary-gradient mb-1">Premium Plan</h4>
+                                            <span>Powerful & Awesome Features</span>
+                                        </div>
+                                        <div class="p-4 pt-0">
+                                            <h1 class="mb-3">
+                                                <small class="align-top" style="font-size: 22px; line-height: 45px;">$</small>34.99<small
+                                                    class="align-bottom" style="font-size: 16px; line-height: 40px;">/ Month</small>
+                                            </h1>
+                                            <div class="d-flex justify-content-between mb-3"><span>HTML5 & CSS3</span><i class="fa fa-check text-primary-gradient pt-1"></i></div>
+                                            <div class="d-flex justify-content-between mb-3"><span>Bootstrap v5</span><i class="fa fa-check text-primary-gradient pt-1"></i></div>
+                                            <div class="d-flex justify-content-between mb-3"><span>Responsive Layout</span><i class="fa fa-check text-primary-gradient pt-1"></i></div>
+                                            <div class="d-flex justify-content-between mb-2"><span>Cross-browser Support</span><i class="fa fa-check text-primary-gradient pt-1"></i></div>
+                                            <a href="" class="btn btn-primary-gradient rounded-pill py-2 px-4 mt-4">Get Started</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="tab-2" class="tab-pane fade p-0">
+                            <div class="row g-4">
+                                <div class="col-lg-4">
+                                    <div class="bg-light rounded">
+                                        <div class="border-bottom p-4 mb-4">
+                                            <h4 class="text-primary-gradient mb-1">Starter Plan</h4>
+                                            <span>Powerful & Awesome Features</span>
+                                        </div>
+                                        <div class="p-4 pt-0">
+                                            <h1 class="mb-3">
+                                                <small class="align-top" style="font-size: 22px; line-height: 45px;">$</small>114.99<small
+                                                    class="align-bottom" style="font-size: 16px; line-height: 40px;">/ Yearly</small>
+                                            </h1>
+                                            <div class="d-flex justify-content-between mb-3"><span>HTML5 & CSS3</span><i class="fa fa-check text-primary-gradient pt-1"></i></div>
+                                            <div class="d-flex justify-content-between mb-3"><span>Bootstrap v5</span><i class="fa fa-check text-primary-gradient pt-1"></i></div>
+                                            <div class="d-flex justify-content-between mb-3"><span>Responsive Layout</span><i class="fa fa-check text-primary-gradient pt-1"></i></div>
+                                            <div class="d-flex justify-content-between mb-2"><span>Cross-browser Support</span><i class="fa fa-check text-primary-gradient pt-1"></i></div>
+                                            <a href="" class="btn btn-primary-gradient rounded-pill py-2 px-4 mt-4">Get Started</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4">
+                                    <div class="bg-light rounded border">
+                                        <div class="border-bottom p-4 mb-4">
+                                            <h4 class="text-primary-gradient mb-1">Advance Plan</h4>
+                                            <span>Powerful & Awesome Features</span>
+                                        </div>
+                                        <div class="p-4 pt-0">
+                                            <h1 class="mb-3">
+                                                <small class="align-top" style="font-size: 22px; line-height: 45px;">$</small>124.99<small
+                                                    class="align-bottom" style="font-size: 16px; line-height: 40px;">/ Yearly</small>
+                                            </h1>
+                                            <div class="d-flex justify-content-between mb-3"><span>HTML5 & CSS3</span><i class="fa fa-check text-primary-gradient pt-1"></i></div>
+                                            <div class="d-flex justify-content-between mb-3"><span>Bootstrap v5</span><i class="fa fa-check text-primary-gradient pt-1"></i></div>
+                                            <div class="d-flex justify-content-between mb-3"><span>Responsive Layout</span><i class="fa fa-check text-primary-gradient pt-1"></i></div>
+                                            <div class="d-flex justify-content-between mb-2"><span>Cross-browser Support</span><i class="fa fa-check text-primary-gradient pt-1"></i></div>
+                                            <a href="" class="btn btn-primary-gradient rounded-pill py-2 px-4 mt-4">Get Started</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4">
+                                    <div class="bg-light rounded">
+                                        <div class="border-bottom p-4 mb-4">
+                                            <h4 class="text-primary-gradient mb-1">Premium Plan</h4>
+                                            <span>Powerful & Awesome Features</span>
+                                        </div>
+                                        <div class="p-4 pt-0">
+                                            <h1 class="mb-3">
+                                                <small class="align-top" style="font-size: 22px; line-height: 45px;">$</small>134.99<small
+                                                    class="align-bottom" style="font-size: 16px; line-height: 40px;">/ Yearly</small>
+                                            </h1>
+                                            <div class="d-flex justify-content-between mb-3"><span>HTML5 & CSS3</span><i class="fa fa-check text-primary-gradient pt-1"></i></div>
+                                            <div class="d-flex justify-content-between mb-3"><span>Bootstrap v5</span><i class="fa fa-check text-primary-gradient pt-1"></i></div>
+                                            <div class="d-flex justify-content-between mb-3"><span>Responsive Layout</span><i class="fa fa-check text-primary-gradient pt-1"></i></div>
+                                            <div class="d-flex justify-content-between mb-2"><span>Cross-browser Support</span><i class="fa fa-check text-primary-gradient pt-1"></i></div>
+                                            <a href="" class="btn btn-primary-gradient rounded-pill py-2 px-4 mt-4">Get Started</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        -->
+        
+        <!-- Pricing End -->
+
+
+        <!-- Testimonial Start -->
+        <div class="container-xxl py-5" id="review">
+            <div class="container py-5 px-lg-5">
+                <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                    <h5 class="text-primary-gradient fw-medium">Témoignage</h5>
+                    <h1 class="mb-5">Ce qu'en disent nos clients !</h1>
+                </div>
+                <div class="owl-carousel testimonial-carousel wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="testimonial-item rounded p-4">
+                        <div class="d-flex align-items-center mb-4">
+                            <img class="img-fluid bg-white rounded flex-shrink-0 p-1" src="img/bpg.jpg" style="width: 85px; height: 85px;">
+                            <div class="ms-4">
+                                <h5 class="mb-1">Yaya Lombardo</h5>
+                                <p class="mb-1">Architecte</p>
+                                <div>
+                                    <small class="fa fa-star text-warning"></small>
+                                    <small class="fa fa-star text-warning"></small>
+                                    <small class="fa fa-star text-warning"></small>
+                                    <small class="fa fa-star text-warning"></small>
+                                    <small class="fa fa-star text-warning"></small>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="mb-0">Cette application de gestion de santé est tout simplement incroyable ! Elle me facilite la vie en me permettant de suivre mes habitudes alimentaires, mes séances d'exercice et mes heures de sommeil. Grâce à elle, je me sens plus énergique et en meilleure forme. Je la recommande vivement à tous ceux qui veulent prendre soin de leur santé !"</p>
+                    </div>
+                    <div class="testimonial-item rounded p-4">
+                        <div class="d-flex align-items-center mb-4">
+                            <img class="img-fluid bg-white rounded flex-shrink-0 p-1" src="img/a.jpg" style="width: 85px; height: 85px;">
+                            <div class="ms-4">
+                                <h5 class="mb-1">Aicha Konate</h5>
+                                <p class="mb-1">Commercante</p>
+                                <div>
+                                    <small class="fa fa-star text-warning"></small>
+                                    <small class="fa fa-star text-warning"></small>
+                                    <small class="fa fa-star text-warning"></small>
+                                    <small class="fa fa-star text-warning"></small>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                        <p class="mb-0">
+"Wow, cette application est un véritable coach personnel pour ma santé ! J'adore les fonctionnalités qui me permettent de fixer des objectifs réalistes et de suivre mes progrès. Elle me donne également des conseils personnalisés et des recommandations d'activités physiques adaptées à mon niveau de forme. Grâce à cette application, je me sens plus motivé que jamais à prendre soin de moi-même. Merci de m'aider à maintenir une vie saine et équilibrée !"
+</p>
+                    </div>
+                    <div class="testimonial-item rounded p-4">
+                        <div class="d-flex align-items-center mb-4">
+                            <img class="img-fluid bg-white rounded flex-shrink-0 p-1" src="img/bpg.jpg" style="width: 85px; height: 85px;">
+                            <div class="ms-4">
+                                <h5 class="mb-1">Yaya Lombardo</h5>
+                                <p class="mb-1">Architecte</p>
+                                <div>
+                                    <small class="fa fa-star text-warning"></small>
+                                    <small class="fa fa-star text-warning"></small>
+                                    <small class="fa fa-star text-warning"></small>
+                                    <small class="fa fa-star text-warning"></small>
+                                    <small class="fa fa-star text-warning"></small>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="mb-0">Cette application de gestion de santé est tout simplement incroyable ! Elle me facilite la vie en me permettant de suivre mes habitudes alimentaires, mes séances d'exercice et mes heures de sommeil. Grâce à elle, je me sens plus énergique et en meilleure forme. Je la recommande vivement à tous ceux qui veulent prendre soin de leur santé !</p>
+                    </div>
+                    <div class="testimonial-item rounded p-4">
+                        <div class="d-flex align-items-center mb-4">
+                            <img class="img-fluid bg-white rounded flex-shrink-0 p-1" src="img/c.jpg" style="width: 85px; height: 85px;">
+                            <div class="ms-4">
+                                <h5 class="mb-1">Marlon Domoa</h5>
+                                <p class="mb-1">Administrateur Systeme</p>
+                                <div>
+                                    <small class="fa fa-star text-warning"></small>
+                                    <small class="fa fa-star text-warning"></small>
+                                    <small class="fa fa-star text-warning"></small>
+                                    <small class="fa fa-star text-warning"></small>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                        <p class="mb-0">Je suis tellement reconnaissant d'avoir découvert cette application de santé. Elle m'aide à rester motivé et discipliné dans mes choix quotidiens. Les rappels personnalisés pour boire de l'eau, prendre des pauses actives et faire des étirements sont vraiment utiles. Mon bien-être s'améliore de jour en jour et je me sens vraiment épanoui !"</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Testimonial End -->
+
+
+        <!-- Contact Start -->
+        <div class="container-xxl py-5" id="contact">
+            <div class="container py-5 px-lg-5">
+                <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                    <h5 class="text-primary-gradient fw-medium">Contactez nous</h5>
+                    <h1 class="mb-5">Prenez contact !</h1>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-lg-9">
+                        <div class="wow fadeInUp" data-wow-delay="0.3s">
+                            <form>
+                                <div class="row g-3">
+                                    <div class="col-md-6">
+                                        <div class="form-floating">
+                                            <input type="text" class="form-control" id="name" placeholder="Your Name">
+                                            <label for="name">Nom</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-floating">
+                                            <input type="email" class="form-control" id="email" placeholder="Your Email">
+                                            <label for="email">Email</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="form-floating">
+                                            <input type="text" class="form-control" id="subject" placeholder="Subject">
+                                            <label for="subject">Objet</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="form-floating">
+                                            <textarea class="form-control" placeholder="Leave a message here" id="message" style="height: 150px"></textarea>
+                                            <label for="message">Message</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 text-center">
+                                        <button class="btn btn-primary-gradient rounded-pill py-3 px-5" type="submit">Envoyez le message</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Contact End -->
+        
+
+        <!-- Footer Start -->
+        <div class="container-fluid bg-primary text-light footer wow fadeIn" data-wow-delay="0.1s">
+            <div class="container py-5 px-lg-5">
+                <div class="row g-5">
+                    <div class="col-md-6 col-lg-3">
+                        <h4 class="text-white mb-4">Addresse</h4>
+                        <p><i class="fa fa-map-marker-alt me-3"></i>Cocody, CIV</p>
+                        <p><i class="fa fa-phone-alt me-3"></i>+0707070707</p>
+                        <p><i class="fa fa-envelope me-3"></i>wellty@example.com</p>
+                        <div class="d-flex pt-2">
+                            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a>
+                            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-instagram"></i></a>
+                            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <h4 class="text-white mb-4">Nos Liens</h4>
+                        <a class="btn btn-link" href="">A propos</a>
+                        <a class="btn btn-link" href="">Contacts</a>
+                        <a class="btn btn-link" href="">Polique de securité</a>
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <h4 class="text-white mb-4">Popular Link</h4>
+                        <a class="btn btn-link" href="">A propos</a>
+                        <a class="btn btn-link" href="">Contacts</a>
+                        <a class="btn btn-link" href="">Polique de securité</a>
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <h4 class="text-white mb-4">Informations</h4>
+                        <p>Lorem ipsum dolor sit amet elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non vulpu</p>
+                        <div class="position-relative w-100 mt-3">
+                            <input class="form-control border-0 rounded-pill w-100 ps-4 pe-5" type="text" placeholder="Your Email" style="height: 48px;">
+                            <button type="button" class="btn shadow-none position-absolute top-0 end-0 mt-1 me-2"><i class="fa fa-paper-plane text-primary-gradient fs-4"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container px-lg-5">
+                <div class="copyright">
+                    <div class="row">
+                        <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                            &copy; <a class="border-bottom" href="#">WellTy.com</a>, Trout droit reservé. 
+						 </div>
+                        <div class="col-md-6 text-center text-md-end">
+                            <div class="footer-menu">
+                                <a href="">Acceuil</a>
+                                <a href="">Cookies</a>
+                                <a href="">Aide</a>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer End -->
+
+
+        <!-- Back to Top -->
+        <a href="#" class="btn btn-lg btn-lg-square back-to-top pt-2"><i class="bi bi-arrow-up text-white"></i></a>
+    </div>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>

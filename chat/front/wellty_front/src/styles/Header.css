@@ -1,0 +1,22 @@
+
+
+nav {
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    border-bottom: 1px solid #185F54;
+    background-color:#185F54 ;
+}
+nav a{
+    text-decoration: none;
+    margin-right:5rem;
+    color: #fff;
+    transition: 1s ease-in;
+    font-size: 18px;
+}
+nav a:hover{
+    transition: 1s ease-out;
+    font-size: 20px;
+    text-decoration: overline;
+}

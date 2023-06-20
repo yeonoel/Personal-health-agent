@@ -1,0 +1,234 @@
+/* chatbot */
+.chat-bot-header{
+    font-size: 16px;
+    text-align: center;
+    font-weight: 500;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #fff;
+    margin-top: 2px !important;
+    margin-bottom: 2px Im !important;
+    background-color: #4C968A;
+  }
+  
+  .chat-container {
+    background-color: #185F54;
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 95vh;
+    margin-top: 10px;
+  }
+  
+  .chat-window {
+    background-color: #4C968A;
+    padding: 10px;
+    height: 70vh;
+    overflow-y: scroll;
+  }
+  
+  .message-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-bottom: 10px;
+  }
+  
+  .user-message {
+    background-color: #007aff;
+    color: #fff;
+    border-radius: 10px;
+    padding: 10px;
+    margin-left: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    max-width: 70%;
+  }
+  
+  .bot-message {
+    background-color: #fff;
+    color: #000;
+    border-radius: 10px;
+    padding: 10px;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    max-width: 70%;
+  }
+  
+  .message-text {
+    font-family: 'Helvetica', 'Arial', sans-serif;
+  }
+  
+  .profile-image {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+  }
+  
+  .user-image {
+    margin-left: 10px;
+  }
+  
+  .form {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+  }
+  
+  .form input[type="text"] {
+    flex: 1;
+    padding: 10px;
+    border-radius: 25px;
+    font-size: 16px;
+    background-color: #fff;
+  }
+  
+  .form button[type="submit"] {
+    background-color: #007aff;
+    color: #fff;
+    border: none;
+    outline: none;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .typing-bubble{
+    width: 50px;
+  }
+  
+  .header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #4C968A;
+    padding: 10px;
+    /* background-color: #fff; */
+  }
+  
+  .contact-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .name {
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    font-size: 20px;
+    color: #fff;
+    font-weight: 500;
+    margin-top: 2px;
+    margin-bottom: 2px;
+  }
+  
+  .back-button {
+    font-size: 24px;
+    color: #007aff;
+  }
+  
+  .video-icon {
+    font-size: 24px;
+    color: #007aff;
+  }
+  
+  .ref-link{
+    color: #C53AAE;
+    text-decoration: none;
+    font-weight: 500;
+  }
+  
+  .bot-image{
+    margin-right: 10px;
+  }
+  
+
+  .container{
+    display: flex;
+    flex-direction: row;
+    background-color:#185F54;
+    align-items: center;
+  }
+  .menu1{
+    width: 4%;
+    height: 95vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-right: 1px solid #E2E8E7;
+    justify-content: flex-end;
+  }
+  .menu2{
+    background-color: #185F54;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-right: 2px solid '#185F54';
+    width: 20%;
+
+    height: 98vh;
+  }
+  .menumenu2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    height: 400px;
+    width: 100%;
+
+  }
+  .lien{
+    background-color: #4C968A;
+    height: 60px;
+    border-radius: 10px;
+    padding: 0 19px;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }*
+  .lien > a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+  }
+  .chatpp{
+    flex: 1;
+  }
+  .contenthomeimg {
+    margin-bottom: 10px;
+    height: 30px;
+    width: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .homeimg {
+    height: 100%;
+    width: 100%;
+    color: #fff;
+  }
+  .logo{
+    height: 40px;
+    width: 40px;
+    border-radius: '50%';
+  }
+  .logoimg{
+    height: 100%;
+    width: 100%;
+    border-radius: 30px;
+
+  }

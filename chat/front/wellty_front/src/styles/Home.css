@@ -1,0 +1,47 @@
+.containaireItem {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 86vh;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.containerImg{
+    height: 82vh;
+}
+.containerImg img{
+    height: '100%';
+    width: '100%';
+}
+.contentText{
+    display: flex;
+    flex-direction: column;
+    width: '10%';
+    align-items: center;
+    justify-content: flex-end;
+    padding: 0 15px;
+
+}
+.contentText h1{
+    font-size: 200px;
+    font-weight: 700;
+    margin-top: -60px;
+
+}
+.contentText .p1{
+    font-size: 20px;
+    margin-top: -120px;
+}
+.contentText a{
+    height: 3rem;
+    color: #fff;
+    border-radius: 5px;
+    width: 10rem;
+    text-decoration: none;
+    background-color: brown;
+    font-size: 20px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
